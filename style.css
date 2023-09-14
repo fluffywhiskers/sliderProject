@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+h1, address {
+    color: white;
+}
+.container-one {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+}
+.header-box, .scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galery {
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+}
+.photos {
+    height: 700%;
+    animation: slider 24s infinite;
+}
+img {
+    height: 14.2%;
+}
+@keyframes slider {
+    0% {
+        margin-top: 0;
+    }
+    12% {
+        margin-top: 0;
+    }
+    16% {
+        margin-top: -300px;
+    }
+    29% {
+        margin-top: -300px;
+    }
+    33% {
+        margin-top: -600px;
+    }
+    46% {
+        margin-top: -600px;
+    }
+    50% {
+        margin-top: -900px;
+    }
+    62% {
+        margin-top: -1200px;
+    }
+    66% {
+        margin-top: -1200px;
+    }
+    79% {
+        margin-top: -1500px;
+    }
+    83% {
+        margin-top: -1500px;
+    }
+    96% {
+        margin-top: -1800px;
+    }
+    100% {
+        margin-top: -1800px;
+    }
+}
